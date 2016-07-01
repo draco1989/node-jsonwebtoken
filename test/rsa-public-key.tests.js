@@ -1,4 +1,5 @@
 var jwt = require('../');
+jwt.sign = require('../sign');
 
 describe('public key start with BEGIN RSA PUBLIC KEY', function () {
 

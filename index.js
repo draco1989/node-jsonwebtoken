@@ -35,8 +35,6 @@ JWT.decode = function (jwt, options) {
   return payload;
 };
 
-JWT.sign = require('./sign');
-
 JWT.verify = function(jwtString, secretOrPublicKey, options, callback) {
   if ((typeof options === 'function') && !callback) {
     callback = options;

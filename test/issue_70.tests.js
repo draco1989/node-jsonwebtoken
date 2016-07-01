@@ -1,4 +1,5 @@
 var jwt = require('../');
+jwt.sign = require('../sign');
 
 describe('issue 70 - public key start with BEING PUBLIC KEY', function () {
 

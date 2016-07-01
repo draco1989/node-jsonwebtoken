@@ -1,4 +1,5 @@
 var jwt = require('../index');
+jwt.sign = require('../sign');
 var fs = require('fs');
 var path = require('path');
 

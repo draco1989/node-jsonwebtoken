@@ -1,4 +1,5 @@
 var jwt = require('../index');
+jwt.sign = require('../sign');
 var expect = require('chai').expect;
 
 describe('noTimestamp', function() {

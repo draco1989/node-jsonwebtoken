@@ -1,5 +1,6 @@
 var expect = require('chai').expect;
 var jwt = require('./..');
+jwt.sign = require('../sign');
 var atob = require('atob');
 
 describe('issue 196', function () {
